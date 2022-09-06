@@ -1,0 +1,21 @@
+<style>
+    body {
+        background: black;
+        color: purple;
+        text-align: center;
+    }
+
+    #secreto {
+        background: red;
+        padding: 30px;
+        display: none;
+    }
+</style>
+<section>
+    Você tem 18 anos ou mais?
+    <button onclick="document.getElementById('secreto').style.display = 'block'">sim</button>
+    <button onclick="document.getElementById('secreto').style.display = 'none'">não</button>
+</section>
+<section id="secreto">
+    Parte secreta do site que só quem é grande pode ver!
+</section>
